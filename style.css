@@ -1,0 +1,140 @@
+html {
+  background-color: azure;
+  background: url(images/triangle-background.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Center fixed width/body */
+body {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 600px;
+  margin: 25px auto;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px 50px;
+  border-radius: 25px;
+  border: 5px solid navy;
+}
+
+hr {
+  color: black;
+}
+
+/* Title & text */
+h1 {
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+/* Font family */
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+
+/* Formula images */
+#image {
+  text-align: center;
+}
+
+img {
+  width: 280px;
+  margin: 2px;
+  border: 2px solid black;
+}
+
+/* Input fields */
+input {
+  height: 30px;
+  border: 3px solid goldenrod;
+  background-color: lightgoldenrodyellow;
+  border-radius: 5px;
+}
+
+input:hover {
+  background-color: white;
+}
+
+/* Decimals input */
+#decimals {
+  margin-left: 100px;
+  width: 50px;
+  text-align: center;
+}
+
+/* Units selector */
+#unit-select {
+  margin-left: 100px;
+  height: 30px;
+  width: 60px;
+  border: 3px solid goldenrod;
+  background-color: lightgoldenrodyellow;
+  border-radius: 5px;
+}
+
+#unit-select:hover {
+  background-color: white;
+}
+
+/* Input Values Div */
+#in-values {
+  border: 3px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+/* Answer Div */
+#ans-out {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Calculate and clear buttons */
+#calcBtn {
+  border: 2px solid green;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 120px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#calcBtn:hover {
+  background: rgba(40, 255, 114, 0.4);
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+#clearBtn {
+  border: 2px solid red;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#clearBtn:hover {
+  background: rgba(228, 68, 68, 0.4);
+  transition: 1.5s;
+  cursor: pointer;
+}
+
+button {
+  vertical-align: middle;
+  margin: 5px;
+}

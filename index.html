@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Triangle Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>TRIANGLE CALCULATOR</h1>
+    <div>
+    <p id="image">
+      <img
+        src="images/Pythagorean-Theorem.jpeg"
+        alt="Pythagorean Theorem Formula"
+      />
+      <img
+        src="images/area and perimeter triangle.png"
+        alt="Triangle Area and Perimeter"
+        height="161px"
+      />
+    </p>
+  </div>
+
+  <p class="info">A triangle has various formulas associated with it.</p>
+  <p class="info">Here is a simple calculator for the perimeter, area and hypotenuse of a triangle.</p>
+  <hr color="black">
+
+    <div id="in-values">
+      <h2>Input Values<button id="calcBtn">CALCULATE</button> <button id="clearBtn">CLEAR</button></p></h2>
+      <b>Side a:</b> <input id="LengthA" type="number" placeholder="Enter a number" min="0"/><input id="decimals" type="number" min="0" max="10" value="0" /> Decimals</p>
+      <b>Side b:</b> <input id="LengthB" type="number" placeholder="Enter a number" min="0"/><select id="unit-select">
+        <option value="cm">cm</option>
+        <option value="m">m</option>
+        <option value="mm">mm</option>
+        <option value="in">in</option>
+        <option value="ft">ft</option>
+      </select> Units</p>
+    </div>
+
+    <div id="ans-out">
+      <h2>Answers</h2>
+
+      <h3>PERIMETER</h3>
+      <p>The perimeter of the triangle is <span id="perimeter-span">_____</span>.</p>
+
+      <hr color="black">
+
+      <h3>AREA</h3>
+      <p>The area of the triangle is <span id="area-span">_____</span>.</p>
+
+      <hr color="black">
+
+        <h3>PYTHAGOREAN THEOREM</h3>
+        <p>
+          The hypotenuse's length is <span id="hyp-span">_____</span> squared. The square root is <span id="hypsqr-span">_____</span>.</p>
+
+      </div>
+    </div>
+    <script defer src="script.js"></script>
+  </body>
+</html>
